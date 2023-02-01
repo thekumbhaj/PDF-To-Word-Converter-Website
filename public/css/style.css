@@ -1,0 +1,148 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+   
+
+}
+
+body{
+     background-color: rgb(0, 38, 144);
+}
+
+header{
+
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    
+    padding: 2rem;
+
+    align-items: center;
+
+}
+
+header{
+
+    border-bottom: solid 0.25rem rgb(255, 145, 0);
+    
+}
+
+header > h1{
+
+    font-size: 2.5rem;
+    padding: 1.25rem;
+    color: white;
+    background-color: rgb(0, 38, 144);
+    border-radius: 1rem;
+    margin-right: auto;
+
+}
+
+.covertCountBox > h3{
+
+    font-size: 2.5rem;
+    padding: 1.25rem;
+    color: white;
+    background-color:rgb(255, 145, 0);
+    border-radius: 1rem;
+
+}
+
+.main{
+
+     
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin:3rem 2rem 0rem 2rem;
+    color: white;
+
+}
+
+.main > h1{
+
+    grid-column: 1/6;
+    font-size: 3.5rem;
+    text-align: center;
+
+}
+
+.main > h3{
+    grid-column: 1/6;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.main > img{
+   
+    grid-column: 2/3;
+    width: auto;
+    align-items: center;
+    border-radius: 1rem;
+    margin: auto;
+}
+
+.options{
+
+    grid-column: 3/5;
+    border: dotted 2px white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+     padding: 0.5rem;
+    justify-content: center;
+
+}
+
+.options > h1{
+
+    margin-top:1rem;
+    font-size: 2rem;
+
+}
+
+.submitButton{
+
+    background-color: rgb(255, 145, 0);
+    padding: 1rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+    width: 15rem;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+
+}
+.submitButton:hover{
+
+    background-color: white;
+    color: rgb(0, 47, 175);
+    transition-duration: 0.5s;
+    cursor:pointer;
+
+}
+
+form{
+
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.emailSection{
+    margin-top: 1rem;
+}
+
+.browseFileSection{
+    margin: 1rem 0rem 1rem 0rem;
+}
+

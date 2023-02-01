@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Converter</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+
+ </head>
+
+<body>
+
+    <header class="header">
+
+        <h1 class="headerTitle">wordToPDF</h1>
+
+        <div class="covertCountBox">
+
+            <h3>Converted files: {{totalFilesConverted}} </h3>
+
+        </div>
+
+    </header>
+
+    <div class="main">
+
+        <h1>Convert Word to PDF Documents Online for FREE</h1>
+        <h3>Our online tool allows you to convert Word documents to PDF for free. No account creation needed!</h3>
+
+        <img src="/images/mainImage.png" alt="missing image" class="mainImage">
+
+        <div class="options">
+
+            <h1>Choose a Word file for conversion</h1>
+
+            <form action="/" method="POST" enctype="multipart/form-data">
+
+                 <div class="emailSection">
+
+                        <label for="fileUploadMail">Send file to the email address:</label>
+                        <input type="email" name="fileUploadMail">
+
+                </div>  
+
+                <div class="browseFileSection">
+
+                    <input type="file" id="fileUpload" name="fileUpload">
+
+                </div>
+                
+                <input type="submit" class="submitButton" value="Upload"> 
+               
+            </form>
+ 
+        </div>
+
+    </div>
+    
+</body>
+
+</html>
